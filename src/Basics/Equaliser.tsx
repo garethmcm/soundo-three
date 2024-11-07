@@ -29,7 +29,7 @@ const eqPlaylist: EqItems[] = [
 
 // initialises states
 
-const Equalizer: React.FC = () => {
+const Equaliser: React.FC = () => {
   const [isLoaded, setLoaded] = useState(false);
   const sampler = useRef<Sampler | null>(null);
   const eq = useRef<EQ3 | null>(null);
@@ -96,7 +96,7 @@ const Equalizer: React.FC = () => {
 
   return (
     <div>
-      <h1>Equalizer</h1>
+      <h1>Equaliser</h1>
       <p className="blurb">This allows you to boost different parts of a sound, separated into low frequencies, mid frequencies and high frequencies</p>
       <div className="audioComponentDisplay">
         <div className="playerButtonBox">
@@ -235,4 +235,4 @@ const Equalizer: React.FC = () => {
   );
 };
 
-export default Equalizer;
+export default Equaliser;

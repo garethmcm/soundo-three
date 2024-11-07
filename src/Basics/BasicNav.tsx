@@ -4,7 +4,7 @@ function BasicNav() {
     return (
         <ul className="menu glass rounded-box w-56 bg-opacity-30">
         <li>
-          <Link to="/Basics/Equaliser">Equaliser</Link>
+          <Link to="/Basics/Equaliser2">Equaliser2</Link>
         </li>
         <li>
           <Link to="/Basics/Compressor">Compressor</Link>

@@ -1,0 +1,1 @@
+const s="/assets/YOU%20ARE%20MY%20SUNSHINE-WtKRFfCl.mp3",a="/assets/GUITAR-DIOxD-go.mp3",t="/assets/BASS-BiJwWBpq.mp3",o="/assets/DRUMS-DvvToLUc.mp3",p="/assets/PIANO-B_5YUKja.mp3",n="/assets/VOCAL%20WITH%20VERB-gG-fERAk.mp3";export{t as b,o as d,a as g,p,s,n as v};

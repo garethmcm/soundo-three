@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import BasicNav from '../Basics/BasicNav';
 
 const BasicLanding = React.lazy(() => import("./BasicLanding"));
-const Equaliser = React.lazy(() => import("./Equaliser"));
+const Equaliser2 = React.lazy(() => import("./Equaliser2"));
 const Compressor = React.lazy(() => import("./Compressor"));
 const Delay = React.lazy(() => import("./Delay"));
 const Reverb = React.lazy(() => import("./Reverb"));
@@ -19,7 +19,7 @@ function BasicsFront() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<BasicLanding />} />
-            <Route path="/Equaliser" element={<Equaliser />} />
+            <Route path="/Equaliser2" element={<Equaliser2 />} />
             <Route path="/Compressor" element={<Compressor />} />
             <Route path="/Delay" element={<Delay />} />
             <Route path="/Reverb" element={<Reverb />} />

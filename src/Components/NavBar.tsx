@@ -27,7 +27,7 @@ export function NavBar() {
           <li>
           <summary><Link to="Basics"><a>Basics</a></Link></summary>
             <ul className="p-2">
-              <li><Link to="/Basics/Equaliser">Equaliser</Link></li>
+              <li><Link to="/Basics/Equaliser2">Equaliser2</Link></li>
               <li><Link to="/Basics/Compressor">Compressor</Link></li>
               <li><Link to="/Basics/Delay">Delay</Link></li>
               <li><Link to="/Basics/Reverb">Reverb</Link></li>
@@ -56,7 +56,7 @@ export function NavBar() {
           <details>
             <summary><Link to="Basics"><a>Basics</a></Link></summary>
             <ul className="p-2 bg-navColour">
-              <li><Link to="/Basics/Equaliser">Equaliser</Link></li>
+              <li><Link to="/Basics/Equaliser2">Equaliser2</Link></li>
               <li><Link to="/Basics/Compressor">Compressor</Link></li>
               <li><Link to="/Basics/Delay">Delay</Link></li>
               <li><Link to="/Basics/Reverb">Reverb</Link></li>
